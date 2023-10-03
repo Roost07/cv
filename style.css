@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b7daea;
+    margin: 45;
+    padding: 45;
+}
+header {
+    background-color: #333;
+    color: #f8f372;
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    margin: 50;
+    color: #46b93c;
+    font-size: 75px;
+}
+h2 {
+    margin: 50;
+    color: #6a8283;
+    font-size: 60px;
+}
+h3 {
+    margin: 50;
+    color: #46b93c;
+    font-size: 40px;
+}
+h4 {
+    margin: 50;
+    color: #46b93c;
+    font-size: 50px;
+}
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 60px;
+}
+.profile, .info, .contact {
+    margin-bottom: 100px;
+    padding: 100px;
+    border: 1px solid #cdd018;
+    background-color: #e1f7cf;
+}
+.profile img {
+    max-width: 100%;
+    height: auto;
+}
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+.contact li {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+button {
+    width: 450px; 
+    height: 70px; 
+    background-color: #e3e39f;
+    color: #cf3535; 
+    font-family: Arial, sans-serif; 
+    font-size: 30px; 
+}
+.myButton:hover {
+    background-color: #97de9c;
+}
