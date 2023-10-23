@@ -1,43 +1,43 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #b7daea;
-    margin: 45;
-    padding: 45;
+    margin: 0; 
+    padding: 0; 
 }
 header {
     background-color: #333;
     color: #f8f372;
     text-align: center;
-    padding: 50px;
+    padding: 10px;
 }
 h1 {
-    margin: 50;
+    margin: 0; 
     color: #46b93c;
-    font-size: 75px;
+    font-size: 15px;
 }
 h2 {
-    margin: 50;
+    margin: 0; 
     color: #6a8283;
-    font-size: 60px;
+    font-size: 35px;
 }
 h3 {
-    margin: 50;
+    margin: 0; 
     color: #46b93c;
-    font-size: 40px;
+    font-size: 15px;
 }
 h4 {
-    margin: 50;
+    margin: 0; 
     color: #46b93c;
-    font-size: 50px;
+    font-size: 25px;
 }
 main {
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 60px;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
 }
 .profile, .info, .contact {
-    margin-bottom: 100px;
-    padding: 100px;
+    margin-bottom: 20px; 
+    padding: 20px;
     border: 1px solid #cdd018;
     background-color: #e1f7cf;
 }
@@ -51,16 +51,16 @@ main {
 }
 .contact li {
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 17px;
 }
 button {
-    width: 450px; 
-    height: 70px; 
+    width: 80px;
+    height: 25px;
     background-color: #e3e39f;
-    color: #cf3535; 
-    font-family: Arial, sans-serif; 
-    font-size: 30px; 
+    color: #cf3535;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
 }
-.myButton:hover {
+button:hover { 
     background-color: #97de9c;
 }
